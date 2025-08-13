@@ -20,10 +20,18 @@ class WebPagesController extends Controller
     }
 
     public function contact_us(){
-        echo 'contact us';
+        return view('pages.home');
     }
 
     public function get_quote(){
         echo 'get_quote';
+    }
+
+    public function privacy_policy(){
+        echo 'PP';
+    }
+
+    public function terms_and_conditionss(){
+        echo 'TC';
     }
 }
