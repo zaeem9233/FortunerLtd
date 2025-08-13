@@ -21,140 +21,47 @@
 
     <div class="pb-120">
         <div class="container container-two">
-            <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5">
-                <div class="col" data-aos="fade-up" data-aos-duration="600" >
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="600" >
                     <div class="">
-                        <a href="index.html" class="link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6">
-                            <img src="assets/images/logo/logo-white.png" alt="">
+                        <a href="{{ route('index') }}" class="link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6">
+                            <img src="{{ asset('images/logo/logo-white.png') }}" alt="Fortuner Ltd">
                         </a>
-                        <p class="text-white max-w-330-px tw-text-lg">A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tation ullamcorper.</p>
-                        <div class="d-flex align-items-center tw-gap-305 tw-mt-8">
-                            <a href="https://www.facebook.com/" class="tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
-                                <i class="ph-bold ph-facebook-logo"></i>
-                            </a>
-                            <a href="https://www.facebook.com/" class="tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
-                                <i class="ph-bold ph-twitter-logo"></i>
-                            </a>
-                            <a href="https://www.facebook.com/" class="tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
-                                <i class="ph-bold ph-linkedin-logo"></i>
-                            </a>
-                            <a href="https://www.facebook.com/" class="tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
-                                <i class="ph-bold ph-instagram-logo"></i>
-                            </a>
-                        </div>
+                        <p class="text-white tw-text-lg">Fortuner Ltd is your trusted partner for new, refurbished, and end-of-life IT hardware. From enterprise-grade servers to hard-to-find legacy equipment, we deliver tested, certified, and sustainable technology solutions backed by fast worldwide shipping, secure payment options, and a straightforward returns process. Whether you’re upgrading, expanding, or maintaining your IT infrastructure, we’re here to provide quality you can trust and service you can rely on — every time.</p>
+
                     </div>
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="800" >
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="">
-                        <h5 class="fw-medium text-white tw-mb-8">Shopping</h5>
+                        <h5 class="fw-medium text-white tw-mb-8">Important Links</h5>
                         <ul class="d-flex flex-column tw-gap-4">
                             <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Buy a Domain</a>
+                                <a href="{{ route('index') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Home</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Websites</a>
+                                <a href="{{ route('about_us') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">About us</a>
                             </li>
                             <li>
-                                <a href="contact.html" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Business Email</a>
+                                <a href="{{ route("why_us") }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Why us</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">WordPress</a>
+                                <a href="{{ route("contact_us") }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Contact us</a>
                             </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Hosting</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Web Security</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Logo</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Generator</a>
+                            <li>
+                                <a href="{{ route('get_quote') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Get Quote</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1000" >
-                    <div class="">
-                        <h5 class="fw-medium text-white tw-mb-8">Information</h5>
-                        <ul class="d-flex flex-column tw-gap-4">
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Reviews</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Affiliate program</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Referral program</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Roadmap</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Wall of fame</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">System status</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Sitemap</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1000" >
-                    <div class="">
-                        <h5 class="fw-medium text-white tw-mb-8">Company</h5>
-                        <ul class="d-flex flex-column tw-gap-4">
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">About Hostinger</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Our technology</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Newsroom</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Career</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Blog</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Student discount</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1000" >
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="1000" >
                     <div class="">
                         <h5 class="fw-medium text-white tw-mb-8">Resource</h5>
                         <ul class="d-flex flex-column tw-gap-4">
                             <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Webmail</a>
+                                <a href="{{ route('privacy_policy') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">ICANN Confirmation</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Designers & Developers</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Redeem Code</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Product Catalog</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Customer Testimonials</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Business Name Generator</a>
+                                <a href="{{ route('terms_and_conditions') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Terms &amp; Conditionss</a>
                             </li>
                         </ul>
                     </div>
@@ -170,21 +77,18 @@
                 <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                     <p class="text--white text-line-1 fw-normal">
                         Copyright @ 2025
-                        <a href="https://themeforest.net/user/wowtheme7" class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9">WowTheme7</a>
+                        <a href="https://themeforest.net/user/wowtheme7" class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9">{{ env('APP_NAME') }}</a>
                         All Rights Reserved
                     </p>
                     <ul class="d-flex align-items-center tw-gap-4">
                         <li>
-                            <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Faqs</a>
+                            <a href="mailto:info@domain.com" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">info@domain.com</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Setting</a>
+                            <a href="{{ route('privacy_policy') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Privacy</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Privacy</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Contact</a>
+                            <a href="{{ route('contact_us') }}" class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Contact</a>
                         </li>
                     </ul>
                 </div>
