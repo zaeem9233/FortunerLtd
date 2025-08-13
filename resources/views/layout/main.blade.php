@@ -10,17 +10,17 @@
     </div>
     <!--==================== Preloader End ====================-->
 
-  <!--==================== Overlay Start ====================-->
-  <div class="overlay"></div>
-  <!--==================== Overlay End ====================-->
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
 
-  <!--==================== Sidebar Overlay End ====================-->
-  <div class="side-overlay"></div>
-  <!--==================== Sidebar Overlay End ====================-->
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
 
-  <!-- Custom Toast Message start -->
-  <div id="toast-container"></div>
-  <!-- Custom Toast Message End -->
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
 
     <!-- ==================== Scroll to Top End Here ==================== -->
     <div class="progress-wrap">
@@ -44,9 +44,9 @@
 
     <div id="smooth-content">
 
+        @yield('content')
 
-
-    @include('layout.footer')
+        @include('layout.footer')
 
     </div>
 </div>

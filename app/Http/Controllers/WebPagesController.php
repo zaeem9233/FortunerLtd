@@ -28,10 +28,10 @@ class WebPagesController extends Controller
     }
 
     public function privacy_policy(){
-        echo 'PP';
+        return view('pages.privacy-policy');
     }
 
-    public function terms_and_conditionss(){
-        echo 'TC';
+    public function terms_and_conditions(){
+        return view('pages.terms-and-conditions');
     }
 }
