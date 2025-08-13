@@ -10,17 +10,23 @@
         SassTech - Saas Software and IT Solution Multipurpose HTML Template
     </title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/logo/favicon.png">
+    <link rel="shortcut icon" href="{{ asset('images/logo/favicon.png') }}">
+
+    @vite([
+        'resources/css/app.css',
+        'resources/js/app.js'
+    ])
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- aos -->
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <!-- Swiper -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
     <!-- Magnific -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
     <!-- Satoshi -->
-    <link rel="stylesheet" href="css/satoshi.css">
+    <link rel="stylesheet" href="{{ asset('css/satoshi.css') }}">
     <!-- Main css -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
