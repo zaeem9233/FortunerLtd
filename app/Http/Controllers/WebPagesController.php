@@ -16,7 +16,7 @@ class WebPagesController extends Controller
     }
 
     public function about_us(){
-        echo 'About us';
+        return view('pages.about-us');
 
     }
 

@@ -8551,3 +8551,10 @@ svg.radial-progress text {
 
 /* ================================== rtl css End ================================== */
 /*# sourceMappingURL=main.css.map */
+
+
+
+/* Custom CSS */
+.text-justify{
+    text-align: justify;
+}
