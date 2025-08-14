@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactUsRequest;
+use App\Http\Requests\QuoteRequest;
 use App\Mail\ContactUsMail;
+use App\Mail\GetQuoteMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -32,11 +34,14 @@ class WebPagesController extends Controller
     }
 
     public function get_quote(){
-        echo 'get_quote';
+        return view('pages.get-quote');
     }
 
-    public function get_quote_store(Request $request){
-        dd($request);
+    public function get_quote_store(QuoteRequest $request){
+        Mail::to('info@domain.com')->send(new GetQuoteMail($request));
+        return response()->json([
+            'success'   => 'Form submitted, we will contact you shortly.'
+        ]);
     }
 
     public function privacy_policy(){
