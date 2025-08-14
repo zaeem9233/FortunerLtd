@@ -53,5 +53,7 @@
 
     @include('layout.bottom-files')
 
+    @yield('script')
+
     </body>
 </html>

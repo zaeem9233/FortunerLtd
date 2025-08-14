@@ -807,7 +807,7 @@
       },
     });
     // ========================= Shop Details Slider Js End =====================
-    
+
     // ========================= Testimonials Six Slider Js Start =====================
     var testimonialsSixSlider = new Swiper(".testimonials-six-slider", {
       slidesPerView: 2,
@@ -880,20 +880,36 @@
     // ========================= Delete Item Js End ===================
 
     // ========================= Form Submit Js Start ===================
-    $(document).on("submit", ".form-submit", function (e) {
-      e.preventDefault();
+    // $(document).on("submit", ".form-submit", function (e) {
+    //     e.preventDefault();
+    //     $("input").val("");
+    //     $("textarea").val("");
 
-      $("input").val("");
-
-      $("textarea").val("");
-
-      toastMessage(
-        "success",
-        "Success",
-        "Form submitted successfully!",
-        "ph-fill ph-check-circle"
-      );
-    });
+    //     $.ajax({
+    //         url: "{{ route('contact.store') }}",
+    //         method: "POST",
+    //         data: $(this).serialize(),
+    //         dataType: "json",
+    //         success: function (response) {
+    //             alert(response.success);
+    //             $("#contactForm")[0].reset();
+    //             toastMessage(
+    //               "success",
+    //               "Success",
+    //               "Message recieved, we will contact you shortly.",
+    //               "ph-fill ph-check-circle"
+    //             );
+    //         },
+    //         error: function (xhr) {
+    //             if (xhr.status === 422) { // Laravel validation error
+    //                 let errors = xhr.responseJSON.errors;
+    //                 $.each(errors, function (key, value) {
+    //                     $(`[data-error="${key}"]`).text(value[0]);
+    //                 });
+    //             }
+    //         }
+    //     });
+    // });
     // ========================= Form Submit Js End ===================
 
     // ================== Password Show Hide Js Start ==========

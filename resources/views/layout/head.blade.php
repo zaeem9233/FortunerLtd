@@ -5,6 +5,7 @@
     <meta name="keywords" content="@yield('keywords')">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Title -->
     <title>@yield('title')</title>
     <!-- Favicon -->
