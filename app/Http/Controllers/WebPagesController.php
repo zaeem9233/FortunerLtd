@@ -21,7 +21,7 @@ class WebPagesController extends Controller
     }
 
     public function why_us(){
-        echo 'Why US';
+        return view('pages.why-us');
     }
 
     public function contact_us(){

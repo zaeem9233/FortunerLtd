@@ -3,14 +3,13 @@
     <!-- Footer Top Start -->
     <div class="container">
         <div class="d-flex align-items-center justify-content-between tw-pb-15 tw-mb-15 border-bottom border-white-01 tw-gap-6 flex-wrap">
-            <div class="max-w-570-px">
+            <div class="w-100">
                 <h2 class="splitTextStyleOne text-white">
-                    Save up to <span class="text-main-600">85%</span> on your
-                    plan + get a <span class="font-dm-serif fst-italic fw-normal">free domain</span>
+                    Fortuner Ltd – Your <span class="text-main-600">Trusted</span> Partner for Reliable and High-Quality IT Hardware Solutions.
                 </h2>
             </div>
             <div class="" data-aos="fade-up" data-aos-duration="600" >
-                <a href="javascript:void(0)" class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium" data-block="button">
+                <a href="{{ route('get_quote') }}" class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium" data-block="button">
                     <span class="button__flair"></span>
                     <span class="button__label">Get Started Today</span>
                 </a>
