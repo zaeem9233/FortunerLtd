@@ -8,4 +8,8 @@
 
 
 
+    @include('parts.features')
+
+    @include('parts.about-us')
+
 @endsection
