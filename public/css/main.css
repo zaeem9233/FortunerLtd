@@ -7503,14 +7503,14 @@ svg.radial-progress text {
 }
 
 .banner-two__inner {
-    padding-block-start: 152px;
-    padding-block-end: 152px;
+    padding-block-start: 75px;
+    padding-block-end: 75px;
 }
 
 @media (max-width: 767px) {
     .banner-two__inner {
-        padding-block-start: 100px;
-        padding-block-end: 100px;
+        padding-block-start: 25px;
+        padding-block-end: 25px;
     }
 }
 

@@ -17,7 +17,7 @@
                     <div class="">
                         <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                            Why <span class="text-yellow">Fortuner Ltd</span>
+                            About <span class="text-yellow">Fortuner Ltd</span>
                         </div>
                         <h2 class="splitTextStyleOne text-heading text-capitalize" style="perspective: 100px;"><div class="split-line" style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);"> Your Trusted Partner in </div><div class="split-line" style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);"><span class="font-dm-serif fst-italic fw-normal">IT Hardware Solutions</span></div></h2>
                         <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg text-justify" style="perspective: 100px;">At Fortuner Ltd, we combine quality, reliability, and service to bring you IT hardware that fits your needs and budget. From the latest technology to sustainable refurbished options, we make your tech investments simple and secure.</p>

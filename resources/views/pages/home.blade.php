@@ -6,11 +6,11 @@
 
 @section('content')
 
-
-
-    @include('parts.features')
+    @include('parts.slider')
 
     @include('parts.about-us')
+
+    @include('parts.features')
 
     @include('parts.faqs')
 
