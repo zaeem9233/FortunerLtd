@@ -12,4 +12,6 @@
 
     @include('parts.about-us')
 
+    @include('parts.faqs')
+
 @endsection
